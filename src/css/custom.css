@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Teko:wght@600&display=swap');
 
 body {
     background-color: #008080;
@@ -7,15 +8,30 @@ body {
 
 .header {
     background-color:#008080;
-    padding: 0px;
     text-align: center;
 }
 
 .my-name {
     color: #fff;
     font-family: 'Permanent Marker', cursive;
+    font-size: 48px; 
 }
 
 .site-title {
     font-family: 'Teko', sans-serif;
+    font-size: 32px;
+}
+
+.mobile-apps-container {
+    background-color: #E4FFFF;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    color: #008080;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 281px) {
+    .my-name {
+        font-size: 32px; 
+    }
 }

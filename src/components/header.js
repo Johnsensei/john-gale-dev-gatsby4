@@ -9,11 +9,13 @@ import Johnsensei from '../images/johnsensei-animated.gif';
 const Header = () => {
   return (
         <div className='header'>
-          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <div style={{ display: 'flex', 
+          justifyContent: 'center', alignItems: 'center', height: '48px', marginTop: '20px'}}>
             <h1 className='my-name'>John Gale</h1>
             <img
               src={Johnsensei}
-              style={{width: '48px', height: '48px'}}
+              alt='animated walking John'
+              style={{margin: '0 10px 0 10px'}}
             />
           </div>
           <h2 className='site-title'>Development Portfolio</h2>
