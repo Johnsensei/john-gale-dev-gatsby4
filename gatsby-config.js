@@ -5,13 +5,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-preload-fonts`,
-    // `gatsby-transformer-json`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `./src/data/`,
-    //   },
-    // },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'data',
+        path: `./src/data/`,
+      },
+    },
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     {

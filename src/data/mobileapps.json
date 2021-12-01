@@ -1,10 +1,14 @@
 [
-    {   "id": 1,
+    {   
         "name": "Fourth Energy",
-        "image": "../images/4E-mobile.png"
+        "image": "../images/4E-mobile.png",
+        "ios": "https://apps.apple.com/us/app/fourth-energy/id1590704459",
+        "android": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
     },
-    {   "id": 2,
+    {   
         "name": "Hiragana Breaker",
-        "image": "../images/hiragana-breaker.png"
+        "image": "../images/hiragana-breaker.png",
+        "ios": "https://apps.apple.com/us/app/hiragana-breaker/id1207140118",
+        "android": "https://play.google.com/store/apps/details?id=com.johnsenseigames.hiraganabreakerFREE"
     }
 ]

@@ -4,11 +4,13 @@
 
 body {
     background-color: #008080;
+    /* background-color: 'red'; */
 }
 
 .header {
     background-color:#008080;
     text-align: center;
+    /* background-color: 'red'; */
 }
 
 .my-name {
@@ -28,6 +30,12 @@ body {
     text-align: center;
     color: #008080;
     font-size: 20px;
+    /* width: auto; */
+    /* margin: 0 auto; */
+    /* min-width:min-content; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 @media only screen and (max-width: 281px) {
