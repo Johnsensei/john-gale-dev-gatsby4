@@ -1,65 +1,65 @@
 [
     {   
-        "name": "Fourth Energy",
-        "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "name": "Drawsultation",
+        "image": "../images/drawsultation.png",
+        "title": "Mintbean Hackathon Project",
+        "url": "https://www.drawsultation.com/",
+        "text1": "AWS Amplify and Route 53",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/oekaki"
     },
     {   
-        "name": "Fourth Energy",
+        "name": "Fourth Energy React Native Demo",
         "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "title": "React Native Demo",
+        "url": "https://snack.expo.dev/@johnsensei/fourth-energy-react-native-demo",
+        "text1": "Hosted as an Expo Snack",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/ludum-dare-49"
     },
     {   
-        "name": "Fourth Energy",
+        "name": "Previous Portfolio Site",
         "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "title": "Previous Portfolio Site",
+        "url": "https://main.d2fi8pr5di1mnr.amplifyapp.com",
+        "text1": "React Native Web and AWS Amplify",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/rnw-john-the-developer"
     },
     {   
-        "name": "Fourth Energy",
-        "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "name": "NuCamp React Project",
+        "image": "../images/nucamp-react.png",
+        "title": "NuCamp React Project",
+        "url": "https://master.d27sy7609npbeb.amplifyapp.com/home",
+        "text1": "Deployed via AWS Amplify",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/jlr-react"
     },
     {   
-        "name": "Fourth Energy",
-        "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "name": "NuCamp React Native Project",
+        "image": "../images/nucamp-react-native.png.png",
+        "title": "NuCamp React Native Project",
+        "url": "https://github.com/Johnsensei/jlr-reactnative",
+        "text1": "",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/jlr-reactnative"
     },
     {   
-        "name": "Fourth Energy",
-        "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "name": "NuCamp Bootstrap Project",
+        "image": "../images/nucamp-bootstrap.png",
+        "title": "NuCamp Bootstrap Project",
+        "url": "https://nucamp-bootstrap-project.s3.us-east-2.amazonaws.com/jlr-prototype/index.html",
+        "text1": "Hosted on AWS S3",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/jlr-prototype"
     },
     {   
-        "name": "Fourth Energy",
-        "image": "../images/4E-mobile.png",
-        "title": "Title",
-        "url": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy",
-        "text1": "Text 1",
+        "name": "NuCamp Backend Project",
+        "image": "../images/nucamp-backend.png",
+        "title": "NuCamp Backend Project",
+        "url": "https://github.com/Johnsensei/jlrServer",
+        "text1": "Node.js, Express, and MongoDB",
         "text2": "GitHub repo",
-        "github": "https://play.google.com/store/apps/details?id=com.johnsensei.fourthenergy"
+        "github": "https://github.com/Johnsensei/jlrServer"
     }
 ]
