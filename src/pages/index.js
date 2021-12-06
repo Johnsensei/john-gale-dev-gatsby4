@@ -3,6 +3,7 @@ import '../css/custom.css';
 import { graphql } from "gatsby";
 import Header from "../components/header";
 import MobileApps from "../components/mobileapps";
+import WebGames from "../components/webgames";
 // import Test from "../components/test";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -13,6 +14,9 @@ const IndexPage = ({data}) => {
     <div style={{backgroundColor: '#008080'}}>
       <Header/>
       <MobileApps
+        data={data}
+      />
+      <WebGames
         data={data}
       />
     </div>

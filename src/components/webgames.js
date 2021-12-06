@@ -8,11 +8,11 @@ import AppleStore from '../images/apple-store.png';
 import GoogleStore from '../images/google-play-store.png';
 
 
-const MobileApps = (props) => {
+const WebGames = (props) => {
 
   return (
-    <Container fluid className='mobile-apps-container'>
-      <h1>Mobile Apps</h1>
+    <Container fluid className='web-games-container'>
+      <h1>Featured Web Games</h1>
 
       {/* Cards Container Row */}
       <Row
@@ -34,24 +34,6 @@ const MobileApps = (props) => {
               style={{border: '1px solid black' }}
               objectFit={'fill'}
             />
-            
-            {/* App Store Icons */}
-            <div style={{flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}>
-              <a href={node.ios} target='_blank' rel="noreferrer">
-                <img
-                  src={AppleStore}
-                  alt='Apple App Store Logo'
-                  style={{width: '160px', height: '47px', margin: '10px'}}
-                />
-              </a>
-              <a href={node.android} target='_blank' rel="noreferrer">
-                <img
-                  src={GoogleStore}
-                  alt='Google Play Store Logo'
-                  style={{width: '160px', height: '47px', margin: '10px'}}
-                />
-              </a>
-            </div>
 
           </Col>                   
         ))}
@@ -63,4 +45,4 @@ const MobileApps = (props) => {
   )
 }
 
-export default MobileApps;
+export default WebGames;
