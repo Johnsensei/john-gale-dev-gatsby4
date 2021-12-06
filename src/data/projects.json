@@ -10,7 +10,7 @@
     },
     {   
         "name": "Fourth Energy React Native Demo",
-        "image": "../images/4E-mobile.png",
+        "image": "../images/rn-demo.png",
         "title": "React Native Demo",
         "url": "https://snack.expo.dev/@johnsensei/fourth-energy-react-native-demo",
         "text1": "Hosted as an Expo Snack",
@@ -19,7 +19,7 @@
     },
     {   
         "name": "Previous Portfolio Site",
-        "image": "../images/4E-mobile.png",
+        "image": "../images/prev-portfolio.png",
         "title": "Previous Portfolio Site",
         "url": "https://main.d2fi8pr5di1mnr.amplifyapp.com",
         "text1": "React Native Web and AWS Amplify",
