@@ -19,7 +19,7 @@ const WebGames = (props) => {
         style={{display: 'flex', justifyContent: 'space-evenly'}}
       >
 
-        {props.data.apps.edges.map(({node}) => (
+        {props.data.webGames.edges.map(({node}) => (
           
           // Single Card
           <Col

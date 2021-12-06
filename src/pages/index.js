@@ -50,5 +50,23 @@ query {
     }
   }
 
+  webGames: allWebgamesJson {
+    edges {
+      node {
+        name
+        url
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 365, height: 250)
+            resize(fit: FILL, width: 365, height: 250) {
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 `
