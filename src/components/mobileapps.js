@@ -31,8 +31,8 @@ const MobileApps = (props) => {
             <GatsbyImage
               image={node.image.childImageSharp.gatsbyImageData}
               alt={node.name}
-              style={{ width: '365px', height: '250px', border: '1px solid black' }}
-              imgStyle={{ width: '365px', height: '250px' }}
+              style={{border: '1px solid black' }}
+              // imgStyle={{ width: '365px', height: '250px' }}
               objectFit={'fill'}
             />
             

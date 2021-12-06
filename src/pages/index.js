@@ -30,7 +30,14 @@ query {
         name
         image {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(
+              width: 365
+              height: 250
+            )
+            resize(fit: FILL, width: 365, height: 250) {
+              width
+              height
+            }
           }
         }
         ios
