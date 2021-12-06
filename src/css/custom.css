@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Teko:wght@600&display=swap');
 
+html {
+    background-color: #008080; 
+}
+
 body {
     background-color: #008080;
     /* background-color: 'red'; */
@@ -24,18 +28,49 @@ body {
     font-size: 32px;
 }
 
+.container {
+    max-width: 100%;
+}
+
 .mobile-apps-container {
     background-color: #E4FFFF;
     font-family: 'Concert One', cursive;
     text-align: center;
     color: #008080;
     font-size: 20px;
+    max-width: 100%;
     /* width: auto; */
     /* margin: 0 auto; */
     /* min-width:min-content; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+
+.temp-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.test-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .test-row {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
 
 @media only screen and (max-width: 281px) {

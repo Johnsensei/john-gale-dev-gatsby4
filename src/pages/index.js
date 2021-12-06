@@ -1,19 +1,21 @@
 import * as React from "react";
+import '../css/custom.css';
 import { graphql } from "gatsby";
 import Header from "../components/header";
 import MobileApps from "../components/mobileapps";
+// import Test from "../components/test";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
 const IndexPage = ({data}) => {
   return (
-    <>
+    <div style={{backgroundColor: '#008080'}}>
       <Header/>
       <MobileApps
         data={data}
       />
-      {/* {(data) ? 'True' : 'False'} */}
-    </>
+    </div>
   )
 }
 
