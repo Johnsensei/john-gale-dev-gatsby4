@@ -38,16 +38,20 @@ const MobileApps = (props) => {
             
             {/* App Store Icons */}
             <div style={{flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}>
-              <img
-                src={AppleStore}
-                alt='Apple App Store Logo'
-                style={{width: '160px', height: '47px', margin: '10px'}}
-              />
-              <img
-                src={GoogleStore}
-                alt='Google Play Store Logo'
-                style={{width: '160px', height: '47px', margin: '10px'}}
-              />
+              <a href={node.ios} target='_blank' rel="noreferrer">
+                <img
+                  src={AppleStore}
+                  alt='Apple App Store Logo'
+                  style={{width: '160px', height: '47px', margin: '10px'}}
+                />
+              </a>
+              <a href={node.android} target='_blank' rel="noreferrer">
+                <img
+                  src={GoogleStore}
+                  alt='Google Play Store Logo'
+                  style={{width: '160px', height: '47px', margin: '10px'}}
+                />
+              </a>
             </div>
 
           </Col>                   
