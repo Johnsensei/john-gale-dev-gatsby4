@@ -28,12 +28,13 @@ const WebGames = (props) => {
             style={{marginBottom: '20px'}}
           >
 
-            <GatsbyImage
-              image={node.image.childImageSharp.gatsbyImageData}
-              alt={node.name}
-              style={{border: '1px solid black' }}
-              objectFit={'fill'}
-            />
+            <a href={node.url} target='_blank' rel="noreferrer">
+                <GatsbyImage
+                image={node.image.childImageSharp.gatsbyImageData}
+                alt={node.name}
+                style={{border: '1px solid black' }}
+                />
+            </a>
 
           </Col>                   
         ))}

@@ -32,7 +32,6 @@ const MobileApps = (props) => {
               image={node.image.childImageSharp.gatsbyImageData}
               alt={node.name}
               style={{border: '1px solid black' }}
-              objectFit={'fill'}
             />
             
             {/* App Store Icons */}
