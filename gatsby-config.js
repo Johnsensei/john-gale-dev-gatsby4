@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.johngale.dev",
-    title: "John Gale",
+    title: "John Gale Dev Portfolio",
+    description: "The development profile site for John Gale - Indie Developer and Japanese Language Specialist",
+    image: '/preview.png'
   },
   plugins: [
     `gatsby-plugin-preload-fonts`,
