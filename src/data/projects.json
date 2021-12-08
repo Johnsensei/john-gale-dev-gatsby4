@@ -22,7 +22,7 @@
         "image": "../images/prev-portfolio.png",
         "title": "Previous Portfolio Site",
         "url": "https://main.d2fi8pr5di1mnr.amplifyapp.com",
-        "text1": "React Native Web and AWS Amplify",
+        "text1": "React Native Web - AWS Amplify",
         "text2": "GitHub repo",
         "github": "https://github.com/Johnsensei/rnw-john-the-developer"
     },
@@ -37,7 +37,7 @@
     },
     {   
         "name": "NuCamp React Native Project",
-        "image": "../images/nucamp-react-native.png.png",
+        "image": "../images/nucamp-react-native.png",
         "title": "NuCamp React Native Project",
         "url": "https://github.com/Johnsensei/jlr-reactnative",
         "text1": "",

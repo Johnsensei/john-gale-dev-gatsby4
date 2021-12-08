@@ -48,6 +48,14 @@ body {
     font-size: 20px;
 }
 
+.projects-container {
+    background-color: #A9FFFF;
+    font-family: 'Concert One', cursive;
+    text-align: center;
+    color: #008080;
+    font-size: 20px;
+}
+
 .temp-row {
     display: flex;
     flex-direction: row;

@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Header from "../components/header";
 import MobileApps from "../components/mobileapps";
 import WebGames from "../components/webgames";
+import Projects from "../components/projects";
 // import Test from "../components/test";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -17,6 +18,9 @@ const IndexPage = ({data}) => {
         data={data}
       />
       <WebGames
+        data={data}
+      />
+      <Projects
         data={data}
       />
     </div>
@@ -59,6 +63,28 @@ query {
           childImageSharp {
             gatsbyImageData(width: 365, height: 250)
             resize(fit: FILL, width: 365, height: 250) {
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+
+  projects: allProjectsJson {
+    edges {
+      node {
+        github
+        text1
+        text2
+        title
+        url
+        name
+        image {
+          childImageSharp {
+            gatsbyImageData
+            resize(fit: CONTAIN, width: 365, height: 250) {
               width
               height
             }
