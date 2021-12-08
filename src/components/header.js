@@ -1,6 +1,5 @@
 import * as React from "react";
 import '../css/custom.css';
-import { StaticImage } from 'gatsby-plugin-image';
 
 import Johnsensei from '../images/johnsensei-animated.gif';
 

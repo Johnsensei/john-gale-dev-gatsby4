@@ -5,7 +5,8 @@ import Header from "../components/header";
 import MobileApps from "../components/mobileapps";
 import WebGames from "../components/webgames";
 import Projects from "../components/projects";
-// import Test from "../components/test";
+import Footer from "../components/footer";
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -23,6 +24,7 @@ const IndexPage = ({data}) => {
       <Projects
         data={data}
       />
+      <Footer/>
     </div>
   )
 }

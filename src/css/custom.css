@@ -56,6 +56,12 @@ body {
     font-size: 20px;
 }
 
+.footer {
+    background-color:#008080;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .temp-row {
     display: flex;
     flex-direction: row;
