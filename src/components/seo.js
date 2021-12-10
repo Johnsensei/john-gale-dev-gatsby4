@@ -61,11 +61,11 @@
          },
          {
             property: `og:image`,
-            content: 'https://github.com/Johnsensei/john-gale-dev-gatsby4/blob/master/src/images/preview.png',
+            content: 'https://drive.google.com/file/d/1WIpjc5lYGL8Tmz-d59VzM78lexLnKtiu/view?usp=sharing',
           },
           {
             name: "twitter:image",
-            content: 'https://github.com/Johnsensei/john-gale-dev-gatsby4/blob/master/src/images/preview.png'
+            content: 'https://drive.google.com/file/d/1WIpjc5lYGL8Tmz-d59VzM78lexLnKtiu/view?usp=sharing'
           },
          {
            name: `twitter:card`,
