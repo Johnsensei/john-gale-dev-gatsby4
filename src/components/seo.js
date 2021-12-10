@@ -60,8 +60,16 @@
            content: `website`,
          },
          {
+            property: `og:image`,
+            content: '../images/preview.png',
+          },
+          {
+            name: "twitter:image",
+            content: '../images/preview.png'
+          },
+         {
            name: `twitter:card`,
-           content: `summary`,
+           content: `summary_large_image`,
          },
          {
            name: `twitter:creator`,
