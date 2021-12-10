@@ -61,11 +61,19 @@
          },
          {
             property: `og:image`,
-            content: 'https://drive.google.com/file/d/1WIpjc5lYGL8Tmz-d59VzM78lexLnKtiu/view?usp=sharing',
+            content: './preview.png',
+          },
+          {
+            property: "og:image:width",
+            content: '1200',
+          },
+          {
+            property: "og:image:height",
+            content: '630',
           },
           {
             name: "twitter:image",
-            content: 'https://drive.google.com/file/d/1WIpjc5lYGL8Tmz-d59VzM78lexLnKtiu/view?usp=sharing'
+            content: './preview.png'
           },
          {
            name: `twitter:card`,
