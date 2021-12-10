@@ -1,6 +1,7 @@
 import * as React from "react";
 import '../css/custom.css';
 import { graphql } from "gatsby";
+import SEO from "../components/seo";
 import Header from "../components/header";
 import MobileApps from "../components/mobileapps";
 import WebGames from "../components/webgames";
@@ -14,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const IndexPage = ({data}) => {
   return (
     <div style={{backgroundColor: '#008080'}}>
+      <SEO title='John Gale'/>
       <Header/>
       <MobileApps
         data={data}
