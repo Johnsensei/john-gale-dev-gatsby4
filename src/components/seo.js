@@ -61,11 +61,11 @@
          },
          {
             property: `og:image`,
-            content: '../images/preview.png',
+            content: 'https://github.com/Johnsensei/john-gale-dev-gatsby4/blob/master/src/images/preview.png',
           },
           {
             name: "twitter:image",
-            content: '../images/preview.png'
+            content: 'https://github.com/Johnsensei/john-gale-dev-gatsby4/blob/master/src/images/preview.png'
           },
          {
            name: `twitter:card`,
