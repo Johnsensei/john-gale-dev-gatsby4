@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://www.johngale.dev",
     title: "Dev Portfolio",
-    description: "Indie Developer and Japanese Language Specialist - Dev Portfolio",
-    image: './src/images/preview.png',
+    description: "Software Developer and Game Designer - Nashville, TN",
+    image: './preview.png',
     author: "John Gale",
     siteUrl: 'https://www.johngale.dev/'
   },
