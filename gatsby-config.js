@@ -3,7 +3,7 @@ module.exports = {
     siteUrl: "https://www.johngale.dev",
     title: "Dev Portfolio",
     description: "Indie Developer and Japanese Language Specialist - Dev Portfolio",
-    image: './static/preview.png',
+    image: './src/images/preview.png',
     author: "John Gale",
     siteUrl: 'https://www.johngale.dev/'
   },

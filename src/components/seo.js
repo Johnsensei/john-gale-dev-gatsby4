@@ -9,6 +9,8 @@
  import PropTypes from "prop-types"
  import { Helmet } from "react-helmet"
  import { useStaticQuery, graphql } from "gatsby"
+
+ import Preview from '../images/preview.png'
  
  function SEO({ description, lang, meta, image: metaImage, title }) {
    const { site } = useStaticQuery(
@@ -79,7 +81,7 @@
           ? [
               {
                 property: "og:image",
-                content: image,
+                content: '../images/preview.png',
               },
               {
                 property: "og:image:width",
@@ -88,6 +90,10 @@
               {
                 property: "og:image:height",
                 content: metaImage.height,
+              },
+              {
+                name: "twitter:image",
+                content: '../images/preview.png'
               },
               {
                 name: "twitter:card",
