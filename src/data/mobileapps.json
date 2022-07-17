@@ -1,5 +1,11 @@
 [
     {   
+        "name": "C-GOL and the Beast",
+        "image": "../images/cgol.png",
+        "ios": "https://apps.apple.com/us/app/c-gol-and-the-beast/id1606463595",
+        "android": "https://play.google.com/store/apps/details?id=com.johnsensei.CGOLandtheBeast"
+    },
+    {   
         "name": "Fourth Energy",
         "image": "../images/4E-mobile.png",
         "ios": "https://apps.apple.com/us/app/fourth-energy/id1590704459",
