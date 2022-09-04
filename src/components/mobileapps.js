@@ -10,6 +10,8 @@ import GoogleStore from '../images/google-play-store.png';
 
 const MobileApps = (props) => {
 
+  const googlePlayButton = '';
+
   return (
     <Container fluid className='mobile-apps-container'>
       <h1>Mobile Apps</h1>
@@ -43,6 +45,7 @@ const MobileApps = (props) => {
                   style={{width: '160px', height: '47px', margin: '10px'}}
                 />
               </a>
+              {node.android != '' &&
               <a href={node.android} target='_blank' rel="noreferrer">
                 <img
                   src={GoogleStore}
@@ -50,6 +53,9 @@ const MobileApps = (props) => {
                   style={{width: '160px', height: '47px', margin: '10px'}}
                 />
               </a>
+              }
+              
+
             </div>
 
           </Col>                   
